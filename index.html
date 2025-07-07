@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>suminara musumi</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f0;
+            display: flex;
+        }
+
+        .sidebar {
+            width: 200px;
+            background-color: #ffb6c1;
+            height: 100vh;
+            padding-top: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        }
+
+        .sidebar a {
+            display: block;
+            color: white;
+            padding: 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            cursor: pointer;
+        }
+
+        .sidebar a:hover {
+            background-color: #ff88aa;
+        }
+
+        .content {
+            flex-grow: 1;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .content h1 {
+            color: #f7afe9;
+            font-size: 58px;
+            text-shadow: 2px 2px 5px #f7afe9;
+            font-weight: bold;
+			text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,  
+        -1px  1px 0 #000,  
+         1px  1px 0 #000;
+        }
+
+		.content h2
+		{
+		    color: #f7afe9;
+			font-size: 20px;
+			text-shadow: 2px 2px 5px #f7afe9;
+            font-weight: bold;
+			text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,  
+        -1px  1px 0 #000,  
+         1px  1px 0 #000;
+		}
+
+		.content h3
+		{
+				    color: #f30000;
+			font-size: 20px;
+			text-shadow: 2px 2px 5px #f30000;
+            font-weight: bold;
+			text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,  
+        -1px  1px 0 #000,  
+         1px  1px 0 #000;
+		}
+
+        .hidden {
+            display: none;
+        }
+
+		/////////////////////////////
+		body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f0;
+            padding: 40px;
+        }
+
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+		form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px;
+            width: 100%;
+            background-color: #ff69b4;
+            border: none;
+            color: #fff;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+
+		////////////////////////////
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <a onclick="showPage('home')">หน้าหลัก</a>
+        <a onclick="showPage('characters')">ตัวละคร</a>
+        <a onclick="showPage('contact')">ติดต่อ</a>
+        <a onclick="showPage('download')">ดาวน์โหลด</a>
+        <a onclick="showPage('support')">สนับสนุน</a>
+        <a onclick="showPage('volunteer')">อาสาสมัคร</a>
+    </div>
+
+    <div class="content">
+        <div id="home">
+            <h1>Suminara Musumi</h1>
+			<h2>เกมนี้ คุณจะได้รับบทเป็นเด็กนักเรียนสาวผู้มีอดีตที่เจ็บปวด เมื่อแม่ของเธอถูกทำร้ายจากพวกนั้น เธอตัดสินใจลุกขึ้นมาเพื่อสานต่อคำสัญญาล้างแค้นให้สำเร็จ…
+
+
+
+ในโลกที่เต็มไปด้วยความหวาดระแวงและการกลั่นแกล้ง คุณต้องใช้ความเฉลียวฉลาด วางแผนอย่างรอบคอบในการเลือกเวลาที่จะลงมือฆ่า ซ่อนตัวจากสายตาของศัตรู และหนีจากเหตุการณ์ที่กำลังปะทุอย่างรวดเร็ว
+
+ระหว่างทาง คุณจะได้ค้นพบเบื้องหลังความจริงที่ซ่อนเร้นของโรงเรียน ความลับที่ซับซ้อนกับเพื่อนร่วมชั้นและศัตรู รวมไปถึงทางเลือกที่อาจพลิกชีวิตคุณตลอดกาล
+
+เตรียมพร้อมสำหรับการดำดิ่งสู่โลกที่เต็มไปด้วยความตึงเครียด การทรยศ และการแก้แค้นที่ไม่สิ้นสุด คุณจะอยู่รอดและสำเร็จเป้าหมายได้หรือไม่? ทุกการตัดสินใจคือความหมายของชีวิตและความตาย
+
+</h2>
+        <h3>10 ฉากจบ</h3>
+
+        </div>
+
+        <div id="characters" class="hidden">
+            <h1>ตัวละคร</h1>
+            <h2>นี่คือตัวละครของเรา</h2>
+        </div>
+
+        <div id="contact" class="hidden">
+            <h1>ติดต่อ</h1>
+            <h2>สามารถติดต่อเราได้ที่ suminara@example.com</h2>
+        </div>
+
+        <div id="download" class="hidden">
+            <h1>ดาวน์โหลด</h1>
+            <h2>ดาวน์โหลดเกมและสื่ออื่นๆ ได้ที่นี่</h2>
+        </div>
+
+        <div id="support" class="hidden">
+            <h1>สนับสนุน</h1>
+            <h2>ขอบคุณที่ให้การสนับสนุนเรา</h2>
+        </div>
+
+        <div id="volunteer" class="hidden">
+            <h1>อาสาสมัคร</h1>
+            <h2>ร่วมเป็นอาสาสมัครกับเราได้ที่นี่</h2>
+                <form id="contact-form">
+                <input type="text" name="user_name" placeholder="ชื่อของคุณ" required>
+				<input type="number" name="user_age" placeholder="อายุของคุณ" required>
+                <input type="email" name="user_email" placeholder="อีเมลของคุณ" required>
+                <textarea name="message" rows="5" placeholder="ความสามารถและทําไมอยากเป็นอาสาสมัคร(บังคับ)" required></textarea>
+                <button type="submit">ส่งข้อความ</button>
+            </form>
+        </div>
+    </div>
+
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        function showPage(pageId) {
+            const pages = document.querySelectorAll('.content > div');
+            pages.forEach(page => page.classList.add('hidden'));
+            document.getElementById(pageId).classList.remove('hidden');
+        }
+
+        (function() {
+            emailjs.init("K-3b8UZmM3SDbzYNF"); // USER ID ของคุณ
+        })();
+
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            emailjs.sendForm('service_7x60n1p', 'template_xitkibs', this)
+                .then(function() {
+                    alert('ส่งข้อความสำเร็จ!');
+                    document.getElementById('contact-form').reset();
+                }, function(error) {
+                    alert('เกิดข้อผิดพลาด: ' + JSON.stringify(error));
+                });
+        });
+    </script>
+
+</body>
+</html>
+
+<title>Suminara Musumi - เกมล้างแค้นของเด็กสาว</title>
+<meta name="description" content="เกมล้างแค้นสุดเข้มข้น Suminara Musumi เล่นฟรี! ดาวน์โหลดเลย">
